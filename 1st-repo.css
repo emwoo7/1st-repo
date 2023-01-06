@@ -30,7 +30,7 @@ ul {
     color: #ffffff;
     font-weight: 700;
     padding: 18px 35px;
-    font size: 20px;
+    font-size: 15px;
     border: 0;
     
     }
@@ -43,8 +43,8 @@ ul {
 .banner1 {
     font-weight: 600;
     font-size: 45px;
-    margin-bottom: 20px;    
-    }
+    margin-bottom: 20px;  
+}
 .banner2 {
     font-weight: 700;
     font-size: 85px;
@@ -69,6 +69,7 @@ main {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    font-size: 50px;
 }
 .section1 {
     font-weight: 700;
@@ -125,7 +126,13 @@ main {
 }
 
 /* resume section */
-
+.resume1 {
+    display: flex;    
+    gap: 100px;
+    background-color: rgb(212, 212, 212);
+    padding: 50px;
+    border-radius: 30px;
+}
 .sectionTitle {
     margin-top: 100px;
 }
@@ -147,9 +154,41 @@ main {
 }
 .resumeDes {
     color: rgb(121, 0, 0);
+    text-align: justify;
 }
 
 .resumeButton {
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: rgb(136, 206, 206);
+}
+.secTitle {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.conDes {
+    text-align: justify;
+}
+#cont {
+    width: 40%;
+    padding: 150px;
+}
+
+.input, textarea {
+    margin-bottom: 24px;
+    width: 400px;
+    border: 0;
+    height: 40px;
+    border-radius: 5px;
+}
+textarea {
+    height: 200px;
 }
