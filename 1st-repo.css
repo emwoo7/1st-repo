@@ -1,0 +1,123 @@
+*   {margin: 0;
+    font-family: 'Open Sans', sans-serif;}
+.nav1 {
+    font-weight: 800;
+    font-size: 45px;}
+.nav2 {
+    color: #FD6E0A;}
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    margin: 50px 200px;}
+.header {
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-color: #f3d6c0;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+        }
+li {
+    list-style: none;
+    margin-left: 50px; 
+        }
+ul {
+    display: flex;
+    align-items: center;}
+.button1 {
+    border-radius: 5px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 18px 35px;
+    font size: 20px;
+    border: 0;
+    }
+    /* banner styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    }
+.banner1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;    
+    }
+.banner2 {
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner3 {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about section style */
+.aboutme {
+    margin-top: 130px;
+    background: #f7e0cf;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.section2 {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.aboutinfo {
+    display: flex;
+    justify-content: space-around;
+}
+.infoTitle {
+    font-size: 20px;
+    color: #757575;
+}
+.infoDes {
+    font-size: 20px;
+    color: #474747;
+}
+
+/* What i do styles */
+.whatDo {
+    margin-top: 130px;
+}
+.sectionTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;    
+}
+.skills {
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 06);
+    padding: 30px;
+}
+.skillTitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+.skillDes {
+    color: #757575;
+}
