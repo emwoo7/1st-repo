@@ -1,5 +1,5 @@
 *   {margin: 0;
-    font-family: 'Open Sans', sans-serif;}
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .nav1 {
     font-weight: 800;
     font-size: 45px;}
@@ -25,13 +25,14 @@ ul {
     align-items: center;}
 .button1 {
     border-radius: 5px;
-    height: 64px;
+    height: 50px;
     background-color: #FD6E0A;
     color: #ffffff;
     font-weight: 700;
     padding: 18px 35px;
     font size: 20px;
     border: 0;
+    
     }
     /* banner styles */
 .banner {
@@ -52,6 +53,7 @@ ul {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 /* main section style */
 main {
@@ -120,4 +122,34 @@ main {
 }
 .skillDes {
     color: #757575;
+}
+
+/* resume section */
+
+.sectionTitle {
+    margin-top: 100px;
+}
+.resume { 
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;    
+}
+.resumeTitle {
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 25px;
+}
+.resumeItem {
+    color: #757575;
+    font-weight: 500;
+    font-size: 20px;
+}
+.resumeDes {
+    color: rgb(121, 0, 0);
+}
+
+.resumeButton {
+    margin-top: 50px;
+    text-align: center;
 }
